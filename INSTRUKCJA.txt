@@ -1,0 +1,26 @@
+LOS SANTOS BUSINESS MANAGER — APLIKACJA NA ANDROIDA
+
+W paczce są:
+- index.html — aplikacja
+- manifest.webmanifest — ustawienia instalacji i tryb pionowy
+- sw.js — pamięć podręczna i działanie offline po pierwszym uruchomieniu
+- icon-192.png oraz icon-512.png — ikony aplikacji
+
+DARMOWA INSTALACJA PRZEZ GITHUB PAGES
+
+1. Wejdź na github.com i zaloguj się.
+2. Utwórz nowe publiczne repozytorium, np. ls-business-manager.
+3. Wgraj bezpośrednio do głównego katalogu repozytorium wszystkie 5 plików z tej paczki.
+4. Wejdź w Settings → Pages.
+5. W sekcji Build and deployment wybierz Deploy from a branch.
+6. Wybierz branch main oraz folder /(root), a następnie Save.
+7. Poczekaj na publikację strony. Adres będzie miał postać:
+   https://TWOJ_LOGIN.github.io/ls-business-manager/
+8. Otwórz ten adres na telefonie Samsung w Chrome.
+9. W menu Chrome wybierz „Zainstaluj aplikację” albo „Dodaj do ekranu głównego”.
+
+WAŻNE DANE
+Przed przejściem z poprzedniego pliku HTML wyeksportuj kopię danych JSON.
+Po instalacji PWA dane będą zapisywane w pamięci aplikacji/przeglądarki dla nowego adresu.
+Po pierwszym uruchomieniu aplikacja może działać offline. Do synchronizacji danych między urządzeniami potrzebny byłby osobny mechanizm.
+Nie usuwaj danych aplikacji ani danych witryny Chrome, jeśli chcesz zachować zapisane dane.

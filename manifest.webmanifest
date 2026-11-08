@@ -1,0 +1,27 @@
+{
+  "id": "./",
+  "name": "Los Santos Business Manager",
+  "short_name": "LS Business",
+  "description": "Panel postaci, majątku, firm i kont bankowych w świecie GTA V.",
+  "lang": "pl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0d1219",
+  "theme_color": "#10151d",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
